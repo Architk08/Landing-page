@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+  margin : 0px auto;
+}
 .hero {
   height: 85vh;
   margin: 0px auto;
@@ -53,11 +55,12 @@
   color: #E5E7EB;
 }
 
-img {
+.hero-col .hero-img{
+  
   height: 300px;
-  width: 380px;
+  width:100%;
+  
 }
-
 .button {
   display: inline-block;
   background: steelblue;
