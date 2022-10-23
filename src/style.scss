@@ -36,7 +36,7 @@
   text-align:left;
   display:flex;
   justify-content: space-between;
-  align-items: basis;
+  align-items:flex-start;
 }
 .hero-col{
   flex-basis:40%;
@@ -50,9 +50,11 @@
    color: #E5E7EB;
 }
 
-img{
+.hero-col .hero-img{
+  
   height: 300px;
-  width:380px;
+  width:100%;
+  
 }
 
 .button{
@@ -62,4 +64,38 @@ img{
   text-decoration:none;
   color: white;
   border-radius: 15px;
+}
+
+.main-container{
+  padding:0px 10%;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+
+.main-image-container{
+  
+  text-align:center;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  
+}
+.main-header{
+  font-size:36px;
+  color: #1F2937;
+}
+.main-img{
+  width:150px;
+  height:150px;
+  border-radius: 15px;
+}
+.main-image{
+  flex-basis:10%;
+}
+.main-image h1{
+  font-size:15px;
 }
